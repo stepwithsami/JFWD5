@@ -5,3 +5,9 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+@layer utilities {
+  .tag {
+    @apply text-[#181818] text-xs lg:text-sm px-1.5 py-1 rounded-full border border-[#F44335] hover:bg-[#F44335] transition-all cursor-pointer hover:text-white;
+  }
+}
