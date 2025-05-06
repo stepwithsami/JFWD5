@@ -10,4 +10,8 @@ body {
   .tag {
     @apply text-[#181818] text-xs lg:text-sm px-1.5 py-1 rounded-full border border-[#F44335] hover:bg-[#F44335] transition-all cursor-pointer hover:text-white;
   }
+
+  .btn {
+    @apply px-5.5 py-1 bg-[#FFFFFF] rounded-full text-[#2D3142] border-1 cursor-pointer transition-all hover:bg-[#e5e4e4];
+  }
 }
